@@ -19,17 +19,16 @@ public class Solution {
         {
             max = number2;
         }
-        else if (max<number3)
+        if (max<number3)
         {
             max = number3;
         }
-        else if(max<number4)
+        if(max<number4)
         {
             max= number4;
         }
-        else
-        {
+
             System.out.println(max);
-        }
+
     }
 }
