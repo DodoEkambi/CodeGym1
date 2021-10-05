@@ -1,4 +1,4 @@
-package task0501;
+package task05.task0501;
 
 public class Cat {
     public String name;
