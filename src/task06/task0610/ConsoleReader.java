@@ -26,10 +26,7 @@ public class ConsoleReader {
     public static boolean readBoolean() throws Exception{
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String sentence = bufferedReader.readLine();
-        boolean result=false;
-        if(sentence.equals("true")){
-            result = true;
-        }
+        boolean result= sentence.equals("true");
         return result;
     }
 

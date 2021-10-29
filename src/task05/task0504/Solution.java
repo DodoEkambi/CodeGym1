@@ -1,4 +1,4 @@
-package task0504;
+package task05.task0504;
 
 public class Solution {
     public static void main(String[] args) {
